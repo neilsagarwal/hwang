@@ -20,6 +20,7 @@
 #include <cassert>
 #include <iostream>
 #include <cstring>
+#include <functional>
 
 namespace hwang {
 
