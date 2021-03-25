@@ -1,0 +1,8 @@
+# output of setup/build
+build
+thirdparty/
+python/dist
+python/hwang.egg-info/
+python/hwang/__pycache__/
+python/python/
+dependencies.txt
