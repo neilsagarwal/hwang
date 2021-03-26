@@ -363,7 +363,7 @@ void DecoderAutomata::feeder() {
         feeder_result_ = result;
         continue;
       }
-      fprintf(stderr, "feeder current frame %d\n", feeder_current_frame_.load());
+      // fprintf(stderr, "feeder current frame %d\n", feeder_current_frame_.load());
 
       if (feeder_current_frame_ == feeder_next_frame_) {
         feeder_valid_idx_++;
